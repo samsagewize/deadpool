@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deadpool Ninja Turtle</title>
+  <style>
+    /* Global styles for both pages */
+    body {
+      background-image: url("file:///C:/Users/backa/Downloads/image0%20(1).png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+      max-width: 600px;
+      width: 90%;
+    }
+    .about-container {
+      background-color: rgba(0, 0, 0, 0.85);
+      padding: 40px;
+      border-radius: 8px;
+      max-width: 800px;
+      width: 90%;
+      color: #e0e0e0;
+      text-align: left;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #ff4081;
+    }
+    h2 {
+      font-size: 1.5rem;
+      margin-top: 20px;
+      color: #ff6384;
+    }
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+      margin: 10px 0;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      font-size: 1rem;
+      margin: 5px 0;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      font-weight: bold;
+      font-size: 1rem;
+      border: none;
+      color: #fff;
+      background-color: #ff4081;
+      text-decoration: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .button:hover {
+      background-color: #ff639c;
+    }
+    a {
+      color: #ff4081;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 20px;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Deadpool Ninja Turtle</h1>
+    <p>Explore the fusion of your favorite characters in one epic theme.</p>
+    <a href="#about" class="button">About</a>
+    <a href="https://magiceden.us/runes/DEAD%E2%80%A2POOL%E2%80%A2NINJA%E2%80%A2TURTLE%E2%80%A2RUNES" class="button" target="_blank">
+      Rune
+    </a>
+  </div>
+
+  <!-- About Section -->
+  <div id="about" style="display: none;">
+    <div class="about-container">
+      <h1>Welcome to Deadpool Ninja Turtle Runes & Bitcoin Ordinals Hub</h1>
+      <p>Step into the wild, unconventional universe where Deadpool meets the cryptic, innovative world of Bitcoin through Deadpool Ninja Turtle Runes! This isn't your average website; it's a digital playground where art, cryptocurrency, and pop culture fuse into something entirely new and explosively entertaining.</p>
+
+      <h2>What We Offer:</h2>
+      <ul>
+        <li><strong>Deadpool Ninja Turtle Fusion:</strong> Imagine Deadpool, teaming up with the Teenage Mutant Ninja Turtles in a series of digital art pieces. These aren't just images; they're Runes—unique digital assets inscribed on the Bitcoin blockchain. Each Rune tells a story, from epic battles to hilarious misadventures, all with a characteristic twist of humor and satire.</li>
+
+        <li><strong>Bitcoin Ordinals:</strong> Dive into the cutting-edge of cryptocurrency with Bitcoin Ordinals. Here, every satoshi (the smallest unit of Bitcoin) can be inscribed with data, creating digital artifacts that are as unique as anything Deadpool and the Turtles can concoct. Learn about, collect, or create your Ordinals, turning your Bitcoin into not just currency but cultural expressions.</li>
+
+        <li><strong>Runes Marketplace:</strong> Buy, sell, or trade these Runes. Each Rune isn't just a piece of art but a piece of the Bitcoin network, making your collection both valuable in the crypto market and as a cultural meme. Whether you're a fan of Leonardo's swords, Raphael's sai, or Deadpool's chimichangas, there's a Rune for every taste.</li>
+
+        <li><strong>Community and Events:</strong> Join our community where enthusiasts discuss, debate, and dream up new scenarios for these heroes and anti-heroes. Participate in events where your Runes might change ownership in bizarre challenges or battles, mirroring the unpredictable nature of Deadpool's life.</li>
+
+        <li><strong>Educational Resources:</strong> Baffled by blockchain? Intrigued by ordinals but don't know where to start? We've got guides, tutorials, and explainers to get you up to speed. Learn how Bitcoin's not just for transactions but for creating digital culture.</li>
+
+        <li><strong>Art and Culture:</strong> Explore galleries of user-submitted and officially crafted Runes, where art meets blockchain. Each piece is a collectible, but together, they form a dynamic narrative canvas, illustrating the adventures of Deadpool and the Turtles in a way that's only possible through digital innovation.</li>
+
+        <li><strong>Interactive Stories:</strong> Engage with interactive story modes where your choices affect the outcome, shaping the lore of our heroes' universe. Your decisions could lead to alliances, battles, or just plain chaos, all documented in the blockchain.</li>
+      </ul>
+
+      <p>This website isn't just about buying and selling digital assets; it's about being part of a movement where traditional art, comic book culture, and cryptocurrency technology blend into something revolutionary. Here, your Bitcoin does more than transact; it tells stories, creates art, and maybe, just maybe, changes the world with a little help from Deadpool and the Ninja Turtles. Welcome to the future of digital collectibles and entertainment, where the only limit is your imagination.</p>
+      
+      <a href="#" onclick="goBack()" class="button">Back to Home</a>
+    </div>
+  </div>
+
+  <script>
+    document.querySelector('.button[href="#about"]').addEventListener('click', function(event) {
+      event.preventDefault();
+      document.querySelector('.container').style.display = 'none';
+      document.getElementById('about').style.display = 'block';
+    });
+
+    function goBack() {
+      document.querySelector('.container').style.display = 'block';
+      document.getElementById('about').style.display = 'none';
+    }
+  </script>
+</body>
+</html>
